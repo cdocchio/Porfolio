@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body{
+    
+    margin: 0;
+    
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0  24px;
+    margin: 8px;
+    background-color: #FFFFFF;
+}
+.navbar-left{
+    display: flex;
+    width: 100%;
+    
+
+}
+
+.navbar-left ul,.navbar-right ul{ 
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    
+}
+/* Para que se mueva el ul tiene que estar disponible el ancho en donde se va a mover los elementos, ademas que tenes que poner las clases respetando los padres y despues los hijos. */
+.navbar-left ul{
+    flex-grow: 1;
+    justify-content: center;
+    
+}
+.navbar-left ul li a{
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    font-family:'Montserrat';
+    margin: 12px;
+    padding: 40px;
+    color: #22333B;
+
+}
+
+.menu {
+        
+ display:none;
+
+}
+
+    .name{
+     display: flex;
+    align-items: center;
+    color:#0A0908;
+    text-decoration: none;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 28px;
+
+    }
+    
+
+   .btn-lenguage{
+        border-style: none;
+        color: #5E503F;
+        border: 1px solid #5E503F;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        margin: 30px;
+        padding: 10px;
+        line-height: 12px;
+       
+
+
+        
+    }
+    .btn-lenguage:hover{
+        cursor: pointer;
+        background-color: #5E503F ;
+        color:#FFFFFF;
+
+    }
+    .btn-contact{
+        font-family: 'Montserrat';
+        border-style: none;
+        border-radius: 5px;
+        background-color:#C6AC8F;
+        padding: 13px;
+        width: 80%;
+        
+
+    }
+    .btn-contact a{
+        text-decoration: none;
+        color: #FFFFFF;
+        
+    }
+
+
+@media(max-width: 640px){
+    .menu{
+        display:block;
+        width: 30%;
+        
+    }
+    .navbar-left ul{
+    display: none;
+    }
+}
+    
