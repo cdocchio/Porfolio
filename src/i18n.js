@@ -9,12 +9,16 @@ const resources = {
     translation: {
       "Inicio": "Home",
       "Proyectos": "Projects",
+      "Contacto" : "Contact Me",
+      "Idioma": "Cambiar a Español"
+      
     }
   },
   es: {
     translation: {
       "Inicio":"Inicio",
       "Proyectos": "Proyectos",
+      "Idioma": "Switch to English"
     }
   }
 };

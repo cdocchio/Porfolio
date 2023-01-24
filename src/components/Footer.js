@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Footer() {
+function Footer({t}) {
   return (
-    <div>Footer</div>
+    <div>{t("Inicio")}</div>
   )
 }
 
