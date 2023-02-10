@@ -1,9 +1,12 @@
 import React from 'react'
 
-function Footer({t}) {
+function Footer() {
   return (
-    <div>{t("Inicio")}</div>
+   <div>
+    
+   </div>
   )
+
 }
 
 export default Footer

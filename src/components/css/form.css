@@ -1,0 +1,16 @@
+
+.div-form{
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.title-form{
+display: flex;
+justify-content: center;
+}
+.form-mail{
+margin:220px ;
+padding: 20px;
+
+}
