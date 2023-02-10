@@ -5,53 +5,57 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  }
-nav{
+}
+
+nav {
     display: flex;
     justify-content: space-between;
-    padding: 0  24px;
+    padding: 0 24px;
     margin: 8px;
     background-color: #FFFFFF;
 }
-.navbar-left{
+
+.navbar-left {
     display: flex;
     width: 100%;
-    
-    
+
+
 
 }
 
-.navbar-left ul,.navbar-right ul{ 
-    list-style:none;
+.navbar-left ul,
+.navbar-right ul {
+    list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
     align-items: center;
     height: 60px;
-    
+
 }
 
 /* Para que se mueva el ul tiene que estar disponible el ancho en donde se va a mover los elementos, ademas que tenes que poner las clases respetando los padres y despues los hijos. */
-.navbar-left ul{
+.navbar-left ul {
     flex-grow: 1;
     justify-content: center;
-    
+
 }
-.navbar-left ul li a{
+
+.navbar-left ul li a {
     text-align: center;
     font-size: 15px;
     text-decoration: none;
-    font-family:'Montserrat';
+    font-family: 'Montserrat';
     font-weight: 500;
     margin: 40px;
     padding: 20px;
     color: #22333B;
-    
+
 
 }
 
-.container-list{
-    list-style:none;
+.container-list {
+    list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
@@ -59,115 +63,114 @@ nav{
     height: 60px;
 }
 
-.icon{
-    
-        border: 0;
-        height: 40px;
-        width: 40px;
-        padding: 0.5rem;
-        border-radius: 50%;
-        cursor: pointer;
-        position: absolute;
-        top: 20%;
-        transform: translateY(-50%);
-        display: none;
+.icon {
+
+    border: 0;
+    height: 40px;
+    width: 40px;
+    padding: 0.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 20%;
+    transform: translateY(-50%);
+    display: none;
 
 }
 
-.name{
-    
-    color:#0A0908;
+.name {
+
+    color: #0A0908;
     text-decoration: none;
     font-family: 'Playfair Display';
     font-weight: 400;
     font-size: 28px;
-    
-
-    }
-    
-    
-   .btn-lenguage{
-        border-style: none;
-        color: #5E503F;
-        border: 1px solid #5E503F;
-        background-color: #FFFFFF;
-        border-radius: 5px;
-        margin: 30px;
-        padding: 10px;
-        line-height: 12px;
-       
 
 
-        
-    }
-   
-    .btn-contact{
-        font-family: 'Montserrat';
-        font-weight: 500;
-        border-style: none;
-        border-radius: 5px;
-        background-color:#C6AC8F;
-        padding: 13px;
-        width: 80%;
-        
-
-    }
-    .btn-contact a{
-        text-decoration: none;
-        color: #FFFFFF;
-        
-    }
-
-   
+}
 
 
-
-/* 768 fijarse medidas media queries */
- @media screen and (max-width:768px){
-    
-
-    .icon{
-        display: block;
-        
-    }
-    .name{
-        position: relative;
-        left: 30%;
-    }
-    .navbar-left ul{
-        display: none;
-    }
-    .navbar-left ul .expanded{
-    position: absolute;
-    top: 30px;
-    left: 50px;
-    gap:20px;
-    margin-top: 36%;
-    flex-direction: column;
-    width: auto;
-    height: 30%;
-    padding: 20px;
+.btn-lenguage {
+    border-style: none;
+    color: #5E503F;
+    border: 1px solid #5E503F;
+    background-color: #FFFFFF;
     border-radius: 5px;
-    background-color:white; 
- 
-    }
-   
-    .btn-contact{
-    display: none;
-    
-    }
-    .btn-lenguage{
-        display:none;
-    }
-  
+    margin: 30px;
+    padding: 10px;
+    line-height: 12px;
 
 
 
 
 }
 
+.btn-contact {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #C6AC8F;
+    padding: 13px;
+    width: 80%;
+
+
+}
+
+.btn-contact a {
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
 
 
 
-   
-    
+
+
+/* 768 fijarse medidas media queries */
+@media screen and (max-width:768px) {
+
+
+    .icon {
+        display: block;
+
+    }
+
+    .name {
+        position: relative;
+        left: 30%;
+    }
+
+    .navbar-left ul {
+        display: none;
+    }
+
+    .expanded {
+        position: absolute;
+        top: 30px;
+        left: 50px;
+        gap: 20px;
+        margin-top: 36%;
+        flex-direction: column;
+        width: auto;
+        height: 30%;
+        padding: 20px;
+        border-radius: 5px;
+        background-color: white;
+        display: block !important;
+    }
+
+    .btn-contact {
+        display: none;
+
+    }
+
+    .btn-lenguage {
+        display: none;
+    }
+
+
+
+
+
+}
