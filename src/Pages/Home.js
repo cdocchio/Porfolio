@@ -1,7 +1,9 @@
 import React from 'react'
 import '../components/css/home.css'
 import Imagen from '../assets/foto-perfil.jpg'
-
+import Html from '../img/html5-svgrepo-com.svg'
+import Css from '../img/css3-svgrepo-com.svg'
+import Js from '../img/javascript-svgrepo-com.svg'
 function Home() {
   return (
       <main>
@@ -18,14 +20,19 @@ function Home() {
                       Me gustaba mucho personalizar blogs, usaba HTML aunque no sepa en ese momento lo que era y vea muchos videos de tutoriales, me encantaba el poder hacer cosas por la compu.
                       el hecho de aprender cosas nuevas constantemente me da mucha motivación.
                  </p>
-              </div>
-            <button className='cv'>CV</button>
-          </div>
-            </section>
+      </div>
+     <button className='cv'>
+       <a href='/'>CV</a>
+         </button>
+            </div>
+      
+      </section>
      
       <section className='skills'>
       <div className='images'>
-
+          <img src={Html} alt='HTML Logo'/>
+          <img src={Css} alt='CSS logo'/>
+          <img src={Js} alt='JavaScript logo'/>
       </div>
       </section>     
       

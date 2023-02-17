@@ -132,36 +132,49 @@ nav {
 
 
     .icon {
-        display: block;
-
+        display: flex;
+        top: 40px;
     }
 
     .name {
         position: relative;
-        left: 30%;
+        left: 20%;
     }
 
     .navbar-left ul {
         display: none;
     }
-
-    .expanded {
+   
+    .expanded      {
+        /* position:absolute;
+        background-color:#f7ab54;
+        width: 30px;
+        height: 20px;
+        padding: 4px;
+        border-radius: 5px;
+         */
+        /* background-color: #5E503F;
+        
+        width: 50%;
+        */
+        text-align: left; 
         position: absolute;
-        top: 30px;
-        left: 50px;
-        gap: 20px;
-        margin-top: 36%;
+        top: 60px;
+        left: 60px;
+        gap: 10px;
+        margin-top: 10%;
         flex-direction: column;
         width: auto;
         height: 30%;
-        padding: 20px;
+        padding: 10px;
         border-radius: 5px;
-        background-color: white;
-        display: block !important;
+        background-color:white; 
+        display: flex !important; /* esto es una cagada */
     }
 
     .btn-contact {
         display: none;
+        
 
     }
 
