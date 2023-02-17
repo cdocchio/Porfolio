@@ -169,9 +169,8 @@ nav {
         padding: 10px;
         border-radius: 5px;
         background-color:white; 
-        display: flex !important; /* esto es una cagada */
+        display: flex !important;
     }
-
     .btn-contact {
         display: none;
         
