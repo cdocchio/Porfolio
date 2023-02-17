@@ -7,18 +7,18 @@ import { initReactI18next } from "react-i18next";
 const resources = {
   en: {
     translation: {
-      "Inicio": "Home",
-      "Proyectos": "Projects",
-      "Contacto" : "Contact Me",
-      "Idioma": "Cambiar a Español"
+      "INICIO": "HOME",
+      "PROYECTOS": "PROJECTS",
+      "CONTACTO" : "CONTACT ME",
+      "IDIOMA": "Cambiar a Español"
       
     }
   },
   es: {
     translation: {
-      "Inicio":"Inicio",
-      "Proyectos": "Proyectos",
-      "Idioma": "Switch to English"
+      "INICIO":"INICIO",
+      "PROYECTOS": "PROYECTOS",
+      "IDIOMA": "Switch to English"
     }
   }
 };
